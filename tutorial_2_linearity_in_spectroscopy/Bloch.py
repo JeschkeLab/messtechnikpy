@@ -9,14 +9,14 @@ def Bloch_stationary(frq_axis,frq,T1,T2,nu1 = 0.002):
     an appropriate frequency axis is determined, if none is provided
 
     Input parameters:
-        frq    frequency offset from carrier (resonance offset)
-        T1     longitudinal relaxation time
-        T2     transverse relaxation time
+        frq_axis  frequency axis
+        frq       frequency offset from carrier (resonance offset)
+        T1        longitudinal relaxation time
+        T2        transverse relaxation time
     Optional parameters:
-        nu1    irradiation amplitude (default=0.002, linear regime)
+        nu1       irradiation amplitude (default=0.002, linear regime)
     Output parameters:
-    frq_axis  frequency axis
-    spectrum  complex spectrum, real part absorption, imaginary part dispersion
+        spectrum  complex spectrum, real part absorption, imaginary part dispersion
 
     Luis Fabregas, 2020 adapted from G. Jeschke, 2011, for lecture course Messtechnik
     """ 
